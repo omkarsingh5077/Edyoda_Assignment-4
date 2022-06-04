@@ -8,7 +8,7 @@
 lst = [1, 2, 3, 4, 5, 6, 7] 
 print("Sample list: ", lst)
 
-result = map(lambda x : x + x + x, lst) 
+result = map(lambda x : x*3, lst) 
 
 print("\nTriple of list numbers:")
 
