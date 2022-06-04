@@ -13,6 +13,6 @@ def square_num(x):
 lst = [4, 5, 2, 9]
 
 print("Sample List: ",lst)
-result = map(square_num, lst)
+result = (list(map(square_num, lst)))
 print("Square the elements of the list:")
-print(list(result))
+print(result)
