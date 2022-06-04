@@ -8,7 +8,7 @@
 
 
 def square_num(x):
-  return x * x
+  return x**2
   
 lst = [4, 5, 2, 9]
 
